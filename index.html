@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="index.js"></script>
+<link href="index.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-it notes</title>
+</head>
+<body>
+    <h1>Post-it note project</h1>
+    <div id="input-area">
+    <div class="titles">Inset post-it title:</div>
+    <input type="text" class="inputs" name="header" id="header" placeholder="Insert heading..." minlength="1" maxlength="15">
+    <div class="titles">Insert post-it content here:</div>
+    <input id="info" type="text" class="inputs" name="info" placeholder="Insert info..." minlength="1" maxlength="35">
+    <button class="buttons" id="submit" name="submit" type="button" onclick="note()">CREATE</button>
+    </div>
+    <div id="notes"></div>
+</body>
+</html>
